@@ -1,0 +1,39 @@
+.section{
+  width: 285px;
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 30px;
+  .image{
+    width: 285px;
+    height: 285px;
+    margin: 0;
+  }
+  .footer{
+    margin: 15px 0 30px;
+    width: 285px;
+    height: 45px;
+    >button{
+      width: 135px;
+      height: 100%;
+      font-size: 10px;
+      color: #323232;
+      font-weight: normal;
+      background-color: #FFFFFF;
+      border: 1px solid #a5a5a5;
+      cursor: pointer;
+    }
+    >button:first-child{
+      margin-right: 15px;
+    }
+    .activeLike{
+      background-color: #006EBE;
+      color: #FFFFFF;
+      border: none;
+    }
+    .activeUnLike{
+      background-color: #D74800;
+      color: #FFFFFF;
+      border: none;
+    }
+  }
+}
